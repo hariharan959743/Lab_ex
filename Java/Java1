@@ -1,0 +1,21 @@
+A Java programmer without comments in their code might write something like this:
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        List<Integer> list = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            list.add(sc.nextInt());
+        }
+        Collections.sort(list);
+        for (int num : list) {
+            System.out.print(num + " ");
+        }
+    }
+}
+
+It's functional, but without comments, understanding the purpose or logic can become difficult for someone reading the code later. Comments help others (and even your future self) quickly grasp what the code does and why.
+
