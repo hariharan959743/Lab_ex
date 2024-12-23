@@ -1,0 +1,23 @@
+Here's the program without comments:
+
+public class DataTypesDemo {
+    public static void main(String[] args) {
+        int age = 25;
+        double salary = 75000.50;
+        char grade = 'A';
+        boolean isEmployed = true;
+        String name = "John Doe";
+        int[] scores = {85, 90, 78};
+
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Salary: $" + salary);
+        System.out.println("Grade: " + grade);
+        System.out.println("Employed: " + isEmployed);
+
+        System.out.print("Scores: ");
+        for (int score : scores) {
+            System.out.print(score + " ");
+        }
+    }
+}
