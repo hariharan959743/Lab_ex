@@ -1,0 +1,17 @@
+Here is a program written in Java 10:
+
+import java.util.List;
+
+public class Main {
+    public static void main(String[] args) {
+        var numbers = List.of(1, 2, 3, 4, 5);
+        var total = 0;
+        for (var num : numbers) {
+            total += num;
+        }
+        System.out.println("Sum: " + total);
+    }
+}
+
+This program uses the var keyword, introduced in Java 10, for local variable type inference.
+
