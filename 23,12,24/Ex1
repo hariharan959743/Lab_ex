@@ -1,0 +1,11 @@
+Here’s a simple Java 10 program using the var keyword:
+
+public class Main {
+    public static void main(String[] args) {
+        var list = java.util.List.of(1, 2, 3, 4, 5);
+        var sum = 0;
+        for (var num : list) sum += num;
+        System.out.println("Sum: " + sum);
+    }
+}
+
