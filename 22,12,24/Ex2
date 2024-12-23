@@ -1,0 +1,21 @@
+Here's a simple Java program to demonstrate basic data handling:
+
+Example: Store and Display Data
+
+import java.util.ArrayList;
+
+public class DataProgram {
+    public static void main(String[] args) {
+        ArrayList<String> dataList = new ArrayList<>();
+        
+        dataList.add("John");
+        dataList.add("Jane");
+        dataList.add("Doe");
+        
+        for (String data : dataList) {
+            System.out.println(data);
+        }
+    }
+}
+
+This program stores and prints a list of names. Replace or modify the dataList values to suit your use case.
