@@ -1,0 +1,27 @@
+Here’s a simple Java program that demonstrates various concepts, without comments:
+
+public class Main {
+    public static void main(String[] args) {
+        int[] numbers = {1, 2, 3, 4, 5};
+        int sum = 0;
+        for (int num : numbers) {
+            sum += num;
+        }
+        System.out.println("Sum: " + sum);
+
+        String message = "Hello, Java!";
+        System.out.println(message);
+
+        double salary = 55000.75;
+        if (salary > 50000) {
+            System.out.println("High Salary");
+        } else {
+            System.out.println("Moderate Salary");
+        }
+
+        for (int i = 1; i <= 3; i++) {
+            System.out.println("Iteration: " + i);
+        }
+    }
+}
+
