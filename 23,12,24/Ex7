@@ -1,0 +1,7 @@
+Here’s a simple Java program that prints "Hello, yourself!" without any comments:
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, yourself!");
+    }
+}
