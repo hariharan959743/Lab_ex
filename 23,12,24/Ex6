@@ -1,0 +1,44 @@
+Here is a Java program that demonstrates a simple Glass class without comments:
+
+public class Glass {
+    private double capacity;
+    private double currentVolume;
+
+    public Glass(double capacity) {
+        this.capacity = capacity;
+        this.currentVolume = 0;
+    }
+
+    public void fill(double volume) {
+        if (currentVolume + volume <= capacity) {
+            currentVolume += volume;
+        } else {
+            currentVolume = capacity;
+        }
+    }
+
+    public void drink(double volume) {
+        if (currentVolume >= volume) {
+            currentVolume -= volume;
+        } else {
+            currentVolume = 0;
+        }
+    }
+
+    public double getCurrentVolume() {
+        return currentVolume;
+    }
+
+    public double getCapacity() {
+        return capacity;
+    }
+
+    public static void main(String[] args) {
+        Glass glass = new Glass(500);
+        glass.fill(300);
+        System.out.println("Current Volume: " + glass.getCurrentVolume());
+        glass.drink(100);
+        System.out.println("Current Volume: " + glass.getCurrentVolume());
+    }
+}
+
