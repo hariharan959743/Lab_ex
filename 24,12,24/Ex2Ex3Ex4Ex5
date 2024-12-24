@@ -1,0 +1,62 @@
+Here are ten Java programs without comments:
+
+1. Hello World
+
+
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+
+2. Sum of Two Numbers
+
+
+
+import java.util.Scanner;
+public class Sum {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        System.out.println(a + b);
+    }
+}
+
+3. Factorial of a Number
+
+
+
+public class Factorial {
+    public static void main(String[] args) {
+        int n = 5, fact = 1;
+        for (int i = 1; i <= n; i++) {
+            fact *= i;
+        }
+        System.out.println(fact);
+    }
+}
+
+4. Check Prime
+
+
+
+public class Prime {
+    public static void main(String[] args) {
+        int n = 29, count = 0;
+        for (int i = 1; i <= n; i++) {
+            if (n % i == 0) count++;
+        }
+        System.out.println(count == 2);
+    }
+}
+
+5. Fibonacci Sequence
+
+
+
+public class Fibonacci {
+    public static void main(String[] args) {
+        int n = 10, a = 0, b
+
